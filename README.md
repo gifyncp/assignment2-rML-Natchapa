@@ -1,4 +1,5 @@
 # Explaining the COMPAS Replacement Model
+A reproducible analysis of a COMPAS-based risk prediction model using SHAP, LIME, and counterfactual explanations to evaluate transparency, fairness, and governance implications.
 
 **Name:** Natchapa Aunkay (Gift)  
 **Course:** DNSC 6330 – Responsible Machine Learning  
@@ -32,8 +33,6 @@ The following libraries are used:
 - shap  
 - lime  
 - dice-ml  
-
-Install dependencies using:
 
 ---
 
@@ -82,7 +81,7 @@ Open `Assignment02_rML.ipynb` and run all cells sequentially.
 ### Step 4: Governance Interpretation
 - Analyze what explanation results reveal about model behavior  
 - Discuss risks such as proxy variables and fairness concerns  
-- Provide recommendations for monitoring and governance  
+- Provide recommendations for monitoring and governance
 
 ---
 
@@ -98,7 +97,9 @@ Open `Assignment02_rML.ipynb` and run all cells sequentially.
 
 - SHAP, LIME, and counterfactual methods may produce different explanations  
 - Differences arise from methodological assumptions and approximations  
-- No single explanation method is sufficient on its own  
+- No single explanation method is sufficient on its own
+
+
 
 ---
 
